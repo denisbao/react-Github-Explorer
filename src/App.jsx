@@ -1,5 +1,6 @@
+import { RepositoryList } from './Components/RepositoryList';
 import './styles/global.scss';
 
 export function App() {
-  return <h1>Hello Webpack Server</h1>
+  return <RepositoryList />
 }
